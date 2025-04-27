@@ -593,10 +593,6 @@ h5 {
   max-width: 72rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -705,10 +701,6 @@ h5 {
   line-height: 1.75rem;
 }
 
-.leading-9 {
-  line-height: 2.25rem;
-}
-
 .text-grayishBlue {
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
@@ -718,10 +710,6 @@ h5 {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.outline {
-  outline-style: solid;
 }
 
 .duration-200 {
@@ -742,7 +730,6 @@ h5 {
   margin-right: auto;
   max-width: 48rem;
   text-align: center;
-  font-size: 1.25rem;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
@@ -793,6 +780,10 @@ body {
   body {
     background-image: url('../images/bg-header-mobile.png');
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
 
 .hover\:text-strongCyan:hover {
